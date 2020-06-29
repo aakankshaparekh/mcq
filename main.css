@@ -1,0 +1,92 @@
+.app-header {
+  height: 100px;
+  background-color: #e5f1ff;
+  padding-top: 15px;
+}
+
+.app-body {
+  padding-top: 20px;
+}
+
+.question-holder {
+  padding-top: 5px;
+}
+
+.question-answer {
+  width: 100%;
+  border: solid 1px #aaa;
+  border-radius: 5px;
+}
+
+.question-answer .question-header {
+  padding: 10px;
+  background-color: #e5f1ff;
+}
+
+.question-answer .question-header .question-marks {
+  float: right;
+}
+
+.question-answer .question {
+  padding: 10px;
+}
+
+.question-answer .options {
+  padding: 5px;
+}
+
+.question-answer .correct-answer {
+  background-color: #b7ffb7;
+}
+
+.question-answer .incorrect-answer {
+  background-color: #ffb7b7;
+}
+
+.chapter-number {
+  padding: 3px;
+  background-color: #31a2b8;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.question-answer .options input[type="radio"] {
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.question-status-table {
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+}
+
+.question-status-table .flagged-question {
+  border-top: solid 3px #f00;
+  border-bottom: solid 3px #f00;
+}
+
+.button-container {
+  margin-top: 10px;
+}
+
+.button-container button {
+  margin-right: 5px;
+}
+
+.button-container .finish-exam {
+  margin-left: 50px;
+}
+
+.question-status-button {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  padding: 5px;
+  border-top: solid 3px transparent;
+  border-bottom: solid 3px transparent;
+}
+
+.time-remaining {
+  width: 200px;
+  float: right;
+}

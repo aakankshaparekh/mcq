@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>MCQ</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css"></link>
+    <script type="text/javascript" src="queAns-inno-mgmt-1.js"></script>
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid app-header">
+        <h3 class="subject">
+            Innovation Management
+        </h3>
+        <span id="syllabus" class="syllabus">Chatpers</span>
+        <div class="time-remaining">Time remaining: <span id="actualTimeRemaining"></span></div>
+    </div>
+    <div class="container app-body">
+      <div class="row">
+        <div class="col-md-9">
+          <div id="questionsHolder" class="row question-holder"></div>
+            <div class="row button-container">
+            <button type="button" id="flagQuestion" class="btn btn-warning flag-question" onClick="flagQuestion()">Flag Question</button>
+            <button type="button" id="prevQuestion" class="btn btn-info" onClick="previousQuestion()">Prev</button>
+            <button type="button" id="nextQuestion" class="btn btn-info" onClick="nextQuestion()">Next</button>
+            <button type="button" id="finishExam" class="btn btn-primary finish-exam" onClick="finishExam()">Finish Exam</button>
+          </div>    
+        </div>
+        <div class="col-md-3">
+          <div id="questionStatusTable" class="row question-status-table"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
