@@ -119,7 +119,7 @@ function startExam() {
   ).map((checkbox) => Number.parseInt(checkbox.value));
   console.log(subjectCode, questionCount, selectedChapters);
 
-  const urlToVisit = `/exam.html?sc=${
+  const urlToVisit = `/mcq/exam.html?sc=${
     selected.subjectCode
   }&cs=${selected.chapters.join()}&qc=${selected.questionCount}`;
   window.location = urlToVisit;
