@@ -43,32 +43,31 @@
         </div>
       </div>
     </div>
-  </body>
-
-  <div class="modal fade" id="configureTopics" tabindex="-1" role="dialog" aria-labelledby="configureTopicsLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="configureTopicsLabel">Subject name</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-            <div>
-                <div class="config-header">Select chapters:</div>
-                <div id="chaptersContainer"></div>
-            </div>
-            <div id="numberOfQuestions">
-                <div class="config-header">Number of questions (Max: <span id="maxQuestionCount"></span>):</div>
-                <input type="number" class="form-control" id="questionsForExam" min="1" onKeyUp="setQuestionsCount()"></input>
-            </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-          <button type="button" class="btn btn-primary" id="startExam" disabled onClick="startExam()">Start exam</button>
+    <div class="modal fade" id="configureTopics" tabindex="-1" role="dialog" aria-labelledby="configureTopicsLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="configureTopicsLabel">Subject name</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <div>
+                  <div class="config-header">Select chapters:</div>
+                  <div id="chaptersContainer"></div>
+              </div>
+              <div id="numberOfQuestions">
+                  <div class="config-header">Number of questions (Max: <span id="maxQuestionCount"></span>):</div>
+                  <input type="number" class="form-control" id="questionsForExam" min="1" onKeyUp="setQuestionsCount()"></input>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-primary" id="startExam" disabled onClick="startExam()">Start exam</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </body>
 </html>

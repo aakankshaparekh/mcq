@@ -252,19 +252,71 @@ function flagQuestion() {
 function finishExam() {
   clearInterval(countdownTimer);
   isExamFinished = true;
-  let marksObtained = 0;
+  displayResult();
+}
+
+function displayResult() {
+  let totalQuestions = questionAnswers.length;
   let totalMarks = 0;
+  let correctAnswers = 0;
+  let marksObtained = 0;
+  let questionsAttempted = 0;
+  console.log(questionAnswers);
   questionAnswers.forEach((questionAnswer) => {
     totalMarks += questionAnswer.marks;
-    if (questionAnswer.selectedAnswer === questionAnswer.answer) {
-      marksObtained += questionAnswer.marks;
+    if (questionAnswer.isAnswered) {
+      questionsAttempted++;
+      if (questionAnswer.selectedAnswer === questionAnswer.answer) {
+        correctAnswers++;
+        marksObtained += questionAnswer.marks;
+      }
     }
   });
-  disableInputs();
-  renderQuestion();
-  renderQuestionStatusTable();
+
+  document.getElementById(
+    "marksObtained"
+  ).innerText = `${marksObtained} out of ${totalMarks}`;
+
+  document.getElementById("totalQuestions").innerText = totalQuestions;
+
+  document.getElementById("questionsAttempted").innerText = questionsAttempted;
+
+  document.getElementById("correctAnswers").innerText = correctAnswers;
+
+  document.getElementById("incorrectAnswers").innerText =
+    totalQuestions - correctAnswers;
+
+  console.log(`totalQuestions`, totalQuestions);
+  console.log(`totalMarks`, totalMarks);
+  console.log(`correctAnswers`, correctAnswers);
+  console.log(`marksObtained`, marksObtained);
+  console.log(`questionsAttempted`, questionsAttempted);
+
+  const evaluationRows = chaptersSelected.map(
+    (chptNo) => `<tr>
+    <td>${chptNo}</td>
+    <td>${chapters.find((chapter) => chapter.chapter === chptNo).title}</td>
+    <td>${questionAnswers.filter((qa) => qa.chapter === chptNo).length}</td>
+    <td>${
+      questionAnswers.filter((qa) => qa.chapter === chptNo && qa.isAnswered)
+        .length
+    }</td>
+    <td>${
+      questionAnswers.filter(
+        (qa) =>
+          qa.chapter === chptNo &&
+          qa.isAnswered &&
+          qa.selectedAnswer === qa.answer
+      ).length
+    }</td>
+  </tr>`
+  );
+  document.getElementById("evaluation").innerHTML = evaluationRows.join("");
+
   setTimeout(() => {
-    alert(`Marks obtained: ${marksObtained} out of ${totalMarks}`);
+    disableInputs();
+    renderQuestion();
+    renderQuestionStatusTable();
   }, 100);
 }
 

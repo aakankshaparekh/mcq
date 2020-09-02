@@ -1,3 +1,5 @@
+const BASE_HREF = "/mcq/";
+// const BASE_HREF = "";
 var numberOfQuestionsAvailable = 0;
 var selected = {
   subjectCode: -1,
@@ -41,7 +43,7 @@ function selectSubject(subCode) {
       console.log("File loaded", chapters);
       const checkboxes = chapters.map(
         (chapter) =>
-          `<div><input type="checkbox" name="allChapters" value="${chapter.chapter}" onChange="calculateQuestionsAvailable(${chapter.chapter})">${chapter.chapter}. ${chapter.title}</input></div>`
+          `<div class="checkbox-container"><input type="checkbox" name="allChapters" value="${chapter.chapter}" onChange="calculateQuestionsAvailable(${chapter.chapter})">${chapter.chapter}. ${chapter.title}</input></div>`
       );
       const checkboxesToRender = checkboxes.join("");
       console.log(checkboxesToRender);
@@ -119,7 +121,7 @@ function startExam() {
   ).map((checkbox) => Number.parseInt(checkbox.value));
   console.log(subjectCode, questionCount, selectedChapters);
 
-  const urlToVisit = `/mcq/exam.html?sc=${
+  const urlToVisit = `${BASE_HREF}exam.html?sc=${
     selected.subjectCode
   }&cs=${selected.chapters.join()}&qc=${selected.questionCount}`;
   window.location = urlToVisit;

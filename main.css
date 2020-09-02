@@ -8,9 +8,20 @@
   text-align: right;
 }
 
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  padding: 3px 0px;
+}
+
 #chaptersContainer input[type="checkbox"] {
   margin-left: 15px;
   margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  cursor: pointer;
 }
 
 .config-header {

@@ -50,9 +50,20 @@
   border-radius: 3px;
 }
 
+.question-answer .option {
+  display: flex;
+  align-items: center;
+  padding: 3px 0px;
+}
+
 .question-answer .options input[type="radio"] {
   margin-left: 15px;
   margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  cursor: pointer;
 }
 
 .question-status-table {
@@ -89,4 +100,19 @@
 .time-remaining {
   width: 200px;
   float: right;
+}
+
+.result-header {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+#chaptersWiseEvaluation {
+  overflow-x: auto;
+}
+
+@media (min-width: 992px) {
+  .modal-lg {
+    max-width: 80% !important;
+  }
 }
