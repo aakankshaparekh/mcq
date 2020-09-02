@@ -190,23 +190,30 @@ function manageTime() {
   countdownTimer = setInterval(() => {
     timeRemaining -= 1000;
     if (timeRemaining <= 0) {
+      timeRemaining = 0;
       clearInterval(countdownTimer);
       if (!isExamFinished) {
         finishExam();
       }
     }
-    let seconds = timeRemaining / 1000;
-    let minutes = Math.floor(seconds / 60);
-    seconds = seconds % 60;
-
-    // Display two-digit time
-    minutes = minutes.toString().length === 1 ? `0${minutes}` : minutes;
-    seconds = seconds.toString().length === 1 ? `0${seconds}` : seconds;
 
     document.getElementById(
       "actualTimeRemaining"
-    ).innerText = `${minutes}:${seconds}`;
+    ).innerText = convertMillisecondsToTimeString(timeRemaining);
   }, 1000);
+}
+
+function convertMillisecondsToTimeString(timeInMs) {
+  let seconds = timeInMs / 1000;
+  let minutes = Math.floor(seconds / 60);
+  seconds = seconds % 60;
+
+  // Display two-digit time
+  minutes = minutes.toString().length === 1 ? `0${minutes}` : minutes;
+  seconds = seconds.toString().length === 1 ? `0${seconds}` : seconds;
+
+  // console.log("timeInMs", timeInMs, `${minutes}:${seconds}`);
+  return `${minutes}:${seconds}`;
 }
 
 function renderQuestionAnswers() {
@@ -250,9 +257,11 @@ function flagQuestion() {
 }
 
 function finishExam() {
+  // if (confirm("Are you sure you want to finish the exam?")) {
   clearInterval(countdownTimer);
   isExamFinished = true;
   displayResult();
+  // }
 }
 
 function displayResult() {
@@ -286,21 +295,24 @@ function displayResult() {
   document.getElementById("incorrectAnswers").innerText =
     totalQuestions - correctAnswers;
 
-  console.log(`totalQuestions`, totalQuestions);
-  console.log(`totalMarks`, totalMarks);
-  console.log(`correctAnswers`, correctAnswers);
-  console.log(`marksObtained`, marksObtained);
-  console.log(`questionsAttempted`, questionsAttempted);
+  document.getElementById(
+    "timeTaken"
+  ).innerText = convertMillisecondsToTimeString(totalTime - timeRemaining);
+
+  // console.log(`totalQuestions`, totalQuestions);
+  // console.log(`totalMarks`, totalMarks);
+  // console.log(`correctAnswers`, correctAnswers);
+  // console.log(`marksObtained`, marksObtained);
+  // console.log(`questionsAttempted`, questionsAttempted);
 
   const evaluationRows = chaptersSelected.map(
     (chptNo) => `<tr>
     <td>${chptNo}</td>
     <td>${chapters.find((chapter) => chapter.chapter === chptNo).title}</td>
-    <td>${questionAnswers.filter((qa) => qa.chapter === chptNo).length}</td>
     <td>${
       questionAnswers.filter((qa) => qa.chapter === chptNo && qa.isAnswered)
         .length
-    }</td>
+    } / ${questionAnswers.filter((qa) => qa.chapter === chptNo).length}</td>
     <td>${
       questionAnswers.filter(
         (qa) =>
