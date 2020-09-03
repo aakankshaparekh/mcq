@@ -6,6 +6,7 @@ var totalQuestions = 0;
 var totalTime = 0;
 var timeRemaining = 0;
 var countdownTimer;
+var questionInterval;
 
 const correctAnswer = `<img src="data:image/svg+xml,%3Csvg class='bi bi-check2' width='1em' height='1em' viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z'/%3E%3C/svg%3E" />`;
 const wrongAnswer = `<img src="data:image/svg+xml,%3Csvg class='bi bi-x' width='1em' height='1em' viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M11.854 4.146a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708-.708l7-7a.5.5 0 0 1 .708 0z'/%3E%3Cpath fill-rule='evenodd' d='M4.146 4.146a.5.5 0 0 0 0 .708l7 7a.5.5 0 0 0 .708-.708l-7-7a.5.5 0 0 0-.708 0z'/%3E%3C/svg%3E" />`;
@@ -37,9 +38,18 @@ function loadQuestionAnswers(callback) {
 
     chaptersSelected.forEach((selectedChapter) => {
       questionsInSelectedChapters = questionsInSelectedChapters.concat(
-        allQuestionAnswers.filter(
-          (questionAnswer) => questionAnswer.chapter === selectedChapter
-        )
+        allQuestionAnswers
+          .filter(
+            (questionAnswer) => questionAnswer.chapter === selectedChapter
+          )
+          .map((qa) => ({
+            ...qa,
+            isAnswered: false,
+            isFlagged: false,
+            isAnsweredCorrectly: false,
+            timeTaken: 0,
+            selectedAnswer: "",
+          }))
       );
     });
     // console.log("questionsInSelectedChapters", questionsInSelectedChapters);
@@ -92,14 +102,14 @@ function renderQuestionStatusTable() {
       }" onClick="gotoQuestion(${questionIndex})">` +
       // isExamFinished === true
       // ? `<img src="${
-      //     questionAnswer.selectedAnswer === questionAnswer.answer
+      //     questionAnswer.isAnsweredCorrectly
       //       ? correctAnswer
       //       : wrongAnswer
       //   }" />`
       // :
       `${
         isExamFinished
-          ? questionAnswer.selectedAnswer === questionAnswer.answer
+          ? questionAnswer.isAnsweredCorrectly
             ? correctAnswer
             : wrongAnswer
           : questionIndex + 1
@@ -113,7 +123,13 @@ function renderQuestionStatusTable() {
   ).innerHTML = questionStatusTable.join("");
 }
 
-function renderQuestion() {
+function renderQuestion(questionIndex) {
+  if (questionIndex !== undefined) {
+    currentQuestionIndex = questionIndex;
+  }
+  if (questionInterval) {
+    clearInterval(questionInterval);
+  }
   const questionAnswer = questionAnswers[currentQuestionIndex];
   let queAns = `<div class="question-answer" data-qid="${currentQuestionIndex}">`;
   queAns += `<div class="question-header">Question ${
@@ -135,7 +151,7 @@ function renderQuestion() {
             isExamFinished &&
             questionAnswer.isAnswered &&
             questionAnswer.selectedAnswer === option &&
-            questionAnswer.selectedAnswer !== questionAnswer.answer
+            !questionAnswer.isAnsweredCorrectly
               ? "incorrect-answer"
               : ""
           } ${
@@ -151,6 +167,11 @@ function renderQuestion() {
   queAns += `</div>`;
   document.getElementById("questionsHolder").innerHTML = queAns;
 
+  if (!isExamFinished) {
+    questionInterval = setInterval(() => {
+      questionAnswer.timeTaken += 100;
+    }, 100);
+  }
   renderButtons();
 }
 
@@ -158,6 +179,8 @@ function setAnswer(questionIndex, answerText) {
   const questionAnswer = questionAnswers[questionIndex];
   questionAnswer.isAnswered = true;
   questionAnswer.selectedAnswer = answerText;
+  questionAnswer.isAnsweredCorrectly =
+    questionAnswer.selectedAnswer === questionAnswer.answer;
   renderQuestionStatusTable();
 }
 
@@ -203,39 +226,44 @@ function manageTime() {
   }, 1000);
 }
 
-function convertMillisecondsToTimeString(timeInMs) {
+function convertMillisecondsToTimeString(timeInMs, config) {
+  config = config || { displayMilliseconds: false };
   let seconds = timeInMs / 1000;
   let minutes = Math.floor(seconds / 60);
   seconds = seconds % 60;
+  let milliseconds = seconds.toFixed(2).split(".")[1];
+  seconds = seconds.toFixed();
 
   // Display two-digit time
   minutes = minutes.toString().length === 1 ? `0${minutes}` : minutes;
   seconds = seconds.toString().length === 1 ? `0${seconds}` : seconds;
 
   // console.log("timeInMs", timeInMs, `${minutes}:${seconds}`);
-  return `${minutes}:${seconds}`;
+  return `${minutes}:${seconds}${
+    config.displayMilliseconds ? "." + milliseconds : ""
+  }`;
 }
 
 function renderQuestionAnswers() {
   document.getElementById("syllabus").innerText =
     "Chapters: " + chaptersSelected.join(", ");
-  renderQuestion();
+  renderQuestion(0); // Render first question
   renderQuestionStatusTable();
   renderButtons();
   manageTime();
 }
 
 function gotoQuestion(questionIndex) {
-  currentQuestionIndex = questionIndex;
-  renderQuestion();
+  // currentQuestionIndex = questionIndex;
+  renderQuestion(questionIndex);
 }
 
 function nextQuestion() {
   if (currentQuestionIndex === totalQuestions - 1) {
     document.getElementById("nextQuestion").disabled = true;
   } else {
-    currentQuestionIndex++;
-    renderQuestion();
+    // currentQuestionIndex++;
+    renderQuestion(currentQuestionIndex + 1);
   }
 }
 
@@ -243,8 +271,8 @@ function previousQuestion() {
   if (currentQuestionIndex === 0) {
     document.getElementById("prevQuestion").disabled = true;
   } else {
-    currentQuestionIndex--;
-    renderQuestion();
+    // currentQuestionIndex--;
+    renderQuestion(currentQuestionIndex - 1);
   }
 }
 
@@ -256,12 +284,16 @@ function flagQuestion() {
   renderFlagButtonText();
 }
 
+function confirmBeforeFinishingExam() {
+  // if (confirm("Are you sure you want to finish?")) {
+  finishExam();
+  // }
+}
+
 function finishExam() {
-  // if (confirm("Are you sure you want to finish the exam?")) {
   clearInterval(countdownTimer);
   isExamFinished = true;
   displayResult();
-  // }
 }
 
 function displayResult() {
@@ -270,12 +302,12 @@ function displayResult() {
   let correctAnswers = 0;
   let marksObtained = 0;
   let questionsAttempted = 0;
-  console.log(questionAnswers);
+  // console.log(questionAnswers);
   questionAnswers.forEach((questionAnswer) => {
     totalMarks += questionAnswer.marks;
     if (questionAnswer.isAnswered) {
       questionsAttempted++;
-      if (questionAnswer.selectedAnswer === questionAnswer.answer) {
+      if (questionAnswer.isAnsweredCorrectly) {
         correctAnswers++;
         marksObtained += questionAnswer.marks;
       }
@@ -299,6 +331,7 @@ function displayResult() {
     "timeTaken"
   ).innerText = convertMillisecondsToTimeString(totalTime - timeRemaining);
 
+  // console.log("questionAnswers", questionAnswers);
   // console.log(`totalQuestions`, totalQuestions);
   // console.log(`totalMarks`, totalMarks);
   // console.log(`correctAnswers`, correctAnswers);
@@ -315,15 +348,20 @@ function displayResult() {
     } / ${questionAnswers.filter((qa) => qa.chapter === chptNo).length}</td>
     <td>${
       questionAnswers.filter(
-        (qa) =>
-          qa.chapter === chptNo &&
-          qa.isAnswered &&
-          qa.selectedAnswer === qa.answer
+        (qa) => qa.chapter === chptNo && qa.isAnswered && qa.isAnsweredCorrectly
       ).length
     }</td>
+    <td>${convertMillisecondsToTimeString(
+      questionAnswers
+        .filter((qa) => qa.chapter === chptNo)
+        .reduce((total, current) => total + current.timeTaken, 0),
+      { displayMilliseconds: false }
+    )}</td>
   </tr>`
   );
   document.getElementById("evaluation").innerHTML = evaluationRows.join("");
+
+  jQuery("#displayResult").modal("show");
 
   setTimeout(() => {
     disableInputs();

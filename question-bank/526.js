@@ -26,10 +26,7 @@ var allQuestionAnswers = [
     ],
     answer: "Setting appropriate trade credit terms",
     chapter: 7,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -42,10 +39,7 @@ var allQuestionAnswers = [
     ],
     answer: "Ageing receivables",
     chapter: 7,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -53,10 +47,7 @@ var allQuestionAnswers = [
     options: ["Corroboration", "Customer", "Collaterals", "Customization"],
     answer: "Collaterals",
     chapter: 7,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question: "Cash discounts assist business operations as they result in",
@@ -68,10 +59,7 @@ var allQuestionAnswers = [
     ],
     answer: "Reduction in collection efforts",
     chapter: 7,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -79,10 +67,7 @@ var allQuestionAnswers = [
     options: ["Mumbai", "Delhi", "Kolkata", "Chennai"],
     answer: "Chennai",
     chapter: 7,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -90,10 +75,7 @@ var allQuestionAnswers = [
     options: ["A", "B", "C", "Each"],
     answer: "A",
     chapter: 7,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -101,10 +83,7 @@ var allQuestionAnswers = [
     options: ["Delhi", "Chennai", "Mumbai", "Kolkata"],
     answer: "Delhi",
     chapter: 7,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -117,10 +96,7 @@ var allQuestionAnswers = [
     ],
     answer: "Both above",
     chapter: 7,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question: "The 2/10, net 30 credit term indicates that",
@@ -132,10 +108,7 @@ var allQuestionAnswers = [
     ],
     answer: "All above",
     chapter: 7,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -148,10 +121,7 @@ var allQuestionAnswers = [
     ],
     answer: "Asset Management Committee",
     chapter: 7,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -164,10 +134,7 @@ var allQuestionAnswers = [
     ],
     answer: "Each one above",
     chapter: 7,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -175,10 +142,7 @@ var allQuestionAnswers = [
     options: ["Lowest", "Constant", "Highest", "Each one of the above"],
     answer: "Highest",
     chapter: 7,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -186,10 +150,7 @@ var allQuestionAnswers = [
     options: ["Most", "Only", "Least", "Debt equity ratio"],
     answer: "Least",
     chapter: 8,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -202,10 +163,7 @@ var allQuestionAnswers = [
     ],
     answer: "Supply chain managers",
     chapter: 8,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -218,10 +176,7 @@ var allQuestionAnswers = [
     ],
     answer: "Both i) and ii) above",
     chapter: 8,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -235,10 +190,7 @@ var allQuestionAnswers = [
     answer:
       "Compare added cost of carrying inventory with trade discount to take a decision",
     chapter: 8,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -246,10 +198,7 @@ var allQuestionAnswers = [
     options: ["A", "B", "C", "All Three"],
     answer: "A",
     chapter: 8,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -257,10 +206,7 @@ var allQuestionAnswers = [
     options: ["VED", "JIT", "HML", "ABC"],
     answer: "JIT",
     chapter: 8,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -268,10 +214,7 @@ var allQuestionAnswers = [
     options: ["Marketing", "Production", "Finance", "Storekeeping"],
     answer: "Marketing",
     chapter: 8,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -279,10 +222,7 @@ var allQuestionAnswers = [
     options: ["Marketing", "Production", "Finance", "Storekeeping"],
     answer: "Finance",
     chapter: 8,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -290,10 +230,7 @@ var allQuestionAnswers = [
     options: ["Rent", "Salaries", "Interest", "Scrap"],
     answer: "Interest",
     chapter: 8,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -306,10 +243,7 @@ var allQuestionAnswers = [
     ],
     answer: "Both above together",
     chapter: 8,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -317,10 +251,7 @@ var allQuestionAnswers = [
     options: ["LIFO", "Weighted Average", "Any one of above two", "FIFo"],
     answer: "FIFo",
     chapter: 8,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -328,10 +259,7 @@ var allQuestionAnswers = [
     options: ["LIFO", "Weighted Average", "Any one of above two", "FIFP"],
     answer: "LIFO",
     chapter: 8,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -339,10 +267,7 @@ var allQuestionAnswers = [
     options: ["Financial", "Combined", "Reverse", "Operating"],
     answer: "Combined",
     chapter: 9,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -355,10 +280,7 @@ var allQuestionAnswers = [
     ],
     answer: "Fixed assets",
     chapter: 9,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -371,10 +293,7 @@ var allQuestionAnswers = [
     ],
     answer: "With debentures",
     chapter: 9,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -387,10 +306,7 @@ var allQuestionAnswers = [
     ],
     answer: "Ashok",
     chapter: 9,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -403,10 +319,7 @@ var allQuestionAnswers = [
     ],
     answer: "Fallacy in linear",
     chapter: 9,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -414,10 +327,7 @@ var allQuestionAnswers = [
     options: ["High", "Modest", "Low", "Zero"],
     answer: "High",
     chapter: 9,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -431,10 +341,7 @@ var allQuestionAnswers = [
     answer:
       "Provide above average earnings but can put equity owners into bankruptcy.",
     chapter: 9,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -447,10 +354,7 @@ var allQuestionAnswers = [
     ],
     answer: "Breakeven analysis",
     chapter: 9,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -458,10 +362,7 @@ var allQuestionAnswers = [
     options: ["Operating", "Combined", "Financial", "Total"],
     answer: "Financial",
     chapter: 9,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -474,10 +375,7 @@ var allQuestionAnswers = [
     ],
     answer: "Godavari Sugars",
     chapter: 9,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -490,10 +388,7 @@ var allQuestionAnswers = [
     ],
     answer: "The transaction will have no effect",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -506,10 +401,7 @@ var allQuestionAnswers = [
     ],
     answer: "They paid for the shares",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -517,10 +409,7 @@ var allQuestionAnswers = [
     options: ["Par", "Book", "Market", "issue"],
     answer: "Book",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question: "Each equity shreholder of a company has the unique right to",
@@ -532,10 +421,7 @@ var allQuestionAnswers = [
     ],
     answer: "Each one of the above",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -543,10 +429,7 @@ var allQuestionAnswers = [
     options: ["Stock split", "Bonus issue", "None of the above"],
     answer: "Bonus issue",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -559,10 +442,7 @@ var allQuestionAnswers = [
     ],
     answer: "Highest risk and hence highest return",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -575,10 +455,7 @@ var allQuestionAnswers = [
     ],
     answer: "Debt providers",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -586,10 +463,7 @@ var allQuestionAnswers = [
     options: ["1000", "500", "250", "Any one of above"],
     answer: "Any one of above",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -597,10 +471,7 @@ var allQuestionAnswers = [
     options: ["Rights", "Preference", "Bonus", "Debenture"],
     answer: "Bonus",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -613,10 +484,7 @@ var allQuestionAnswers = [
     ],
     answer: "a) authorized, b) issued, c) subscribed  d) paid up",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -629,10 +497,7 @@ var allQuestionAnswers = [
     ],
     answer: "Common stock",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question: "Common stock is treated as a costly long term finance option as",
@@ -644,10 +509,7 @@ var allQuestionAnswers = [
     ],
     answer: "Dividend has to be paid from after tax earnings",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -660,10 +522,7 @@ var allQuestionAnswers = [
     ],
     answer: "Are backed by assets of the company",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -676,10 +535,7 @@ var allQuestionAnswers = [
     ],
     answer: "Issue common stock and liquidate them",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -687,10 +543,7 @@ var allQuestionAnswers = [
     options: ["Contract", "Issue document", "Bond", "Indenture"],
     answer: "Indenture",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -703,10 +556,7 @@ var allQuestionAnswers = [
     ],
     answer: "Interest rate",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -719,10 +569,7 @@ var allQuestionAnswers = [
     ],
     answer: "Interest has to be paid for a limited period",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -735,10 +582,7 @@ var allQuestionAnswers = [
     ],
     answer: "Non-cumulative unsecured debenture",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -746,10 +590,7 @@ var allQuestionAnswers = [
     options: ["Call option", "Put option", "Pull option", "Zero coupon"],
     answer: "Call option",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -757,10 +598,7 @@ var allQuestionAnswers = [
     options: ["Call option", "Put option", "Pull option", "Zero coupon"],
     answer: "Pull option",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -773,10 +611,7 @@ var allQuestionAnswers = [
     ],
     answer: "Interest is a tax deductible expense",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -784,10 +619,7 @@ var allQuestionAnswers = [
     options: ["Rights", "Bonus share", "Fraction", "Bonus debenture"],
     answer: "Bonus debenture",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -800,10 +632,7 @@ var allQuestionAnswers = [
     ],
     answer: "All three together",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -811,10 +640,7 @@ var allQuestionAnswers = [
     options: ["Meena", "Leena", "Both", "No one"],
     answer: "Leena",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -822,10 +648,7 @@ var allQuestionAnswers = [
     options: ["Interest rate", "Dividends", "Both", "None above"],
     answer: "Both",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -838,10 +661,7 @@ var allQuestionAnswers = [
     ],
     answer: "Both",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -854,10 +674,7 @@ var allQuestionAnswers = [
     ],
     answer: "A new long term project",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -871,10 +688,7 @@ var allQuestionAnswers = [
     answer:
       "Recalculated WACC considering both debt, retained earnings and equity",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -887,10 +701,7 @@ var allQuestionAnswers = [
     ],
     answer: "Each one of above",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -903,10 +714,7 @@ var allQuestionAnswers = [
     ],
     answer: "Loss of positive credit rating and perhaps bankruptcy",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -919,10 +727,7 @@ var allQuestionAnswers = [
     ],
     answer: "Present pre-tax rate of current debt is cost of debt",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -930,10 +735,7 @@ var allQuestionAnswers = [
     options: ["Suresh", "Ramesh", "Harish", "All three"],
     answer: "Suresh",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -941,10 +743,7 @@ var allQuestionAnswers = [
     options: ["John F Muth", "Myron Gordon", "Merton Miller"],
     answer: "John F Muth",
     chapter: 13,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -957,10 +756,7 @@ var allQuestionAnswers = [
     ],
     answer: "With what investors would earn on their next investment",
     chapter: 13,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -973,10 +769,7 @@ var allQuestionAnswers = [
     ],
     answer: "Stockholders’ preferences",
     chapter: 13,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -989,10 +782,7 @@ var allQuestionAnswers = [
     ],
     answer: "Liquid assets",
     chapter: 13,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1006,10 +796,7 @@ var allQuestionAnswers = [
     answer:
       "Permit declaration of dividends from reserves on complying with a few stipulations",
     chapter: 13,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1022,10 +809,7 @@ var allQuestionAnswers = [
     ],
     answer: "Dividend payout ratio is consistent",
     chapter: 13,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1038,10 +822,7 @@ var allQuestionAnswers = [
     ],
     answer: "The one which equity holders can achieve",
     chapter: 13,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1054,10 +835,7 @@ var allQuestionAnswers = [
     ],
     answer: "Wanting immediate/regular return on their investment",
     chapter: 13,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1070,10 +848,7 @@ var allQuestionAnswers = [
     ],
     answer: "Inventory and receivables",
     chapter: 13,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1086,9 +861,6 @@ var allQuestionAnswers = [
     ],
     answer: "Earning capacity",
     chapter: 13,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
 ];

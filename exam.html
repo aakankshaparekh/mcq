@@ -35,7 +35,7 @@
             onClick="flagQuestion()">Flag Question</button>
           <button type="button" id="prevQuestion" class="btn btn-sm btn-info" onClick="previousQuestion()">Prev</button>
           <button type="button" id="nextQuestion" class="btn btn-sm btn-info" onClick="nextQuestion()">Next</button>
-          <button type="button" id="finishExam" class="btn btn-sm btn-primary finish-exam" onClick="finishExam()" data-toggle="modal" data-target="#displayResult">Finish
+          <button type="button" id="finishExam" class="btn btn-sm btn-primary finish-exam" onClick="confirmBeforeFinishingExam()">Finish
             Exam</button>
         </div>
       </div>
@@ -87,6 +87,7 @@
                     <th>Name</th>
                     <th>Attempted</th>
                     <th>Correct</th>
+                    <th>Time</th>
                   </tr>
                 </thead>
                 <tbody id="evaluation"></tbody>

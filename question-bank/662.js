@@ -36,10 +36,7 @@ var allQuestionAnswers = [
     ],
     answer: "None of the options",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -47,10 +44,7 @@ var allQuestionAnswers = [
     options: ["Yes", "No"],
     answer: "Yes",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -58,10 +52,7 @@ var allQuestionAnswers = [
     options: ["Rs.10 ", "Rs.100", "Rs.200", "Rs.500"],
     answer: "Rs.200",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -69,10 +60,7 @@ var allQuestionAnswers = [
     options: ["1", "2", "3", "4"],
     answer: "1",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -80,10 +68,7 @@ var allQuestionAnswers = [
     options: ["Duty challan", "a bill of supply ", "Credit note", "Debit note"],
     answer: "a bill of supply ",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -96,10 +81,7 @@ var allQuestionAnswers = [
     ],
     answer: "Receipt voucher",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -112,10 +94,7 @@ var allQuestionAnswers = [
     ],
     answer: "refund voucher",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -128,10 +107,7 @@ var allQuestionAnswers = [
     ],
     answer: "Either of Option A or B",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -144,10 +120,7 @@ var allQuestionAnswers = [
     ],
     answer: "Either of Option A or B",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -160,10 +133,7 @@ var allQuestionAnswers = [
     ],
     answer: "credit note",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -176,10 +146,7 @@ var allQuestionAnswers = [
     ],
     answer: "debit note ",
     chapter: 10,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -192,10 +159,7 @@ var allQuestionAnswers = [
     ],
     answer: "All of the options",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -203,10 +167,7 @@ var allQuestionAnswers = [
     options: ["7th", "8th", "9th", "10th"],
     answer: "10th",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -219,10 +180,7 @@ var allQuestionAnswers = [
     ],
     answer: "fifteenth day of the month succeeding the tax period",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -235,10 +193,7 @@ var allQuestionAnswers = [
     ],
     answer: "seventeenthday, of the month succeeding the tax period",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -251,10 +206,7 @@ var allQuestionAnswers = [
     ],
     answer: "earlier of option A or B",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -262,10 +214,7 @@ var allQuestionAnswers = [
     options: ["invoices", "debit notes", "credit notes", "All of the options"],
     answer: "All of the options",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -273,10 +222,7 @@ var allQuestionAnswers = [
     options: ["5th", "10th", "15th ", "20th"],
     answer: "20th",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -284,10 +230,7 @@ var allQuestionAnswers = [
     options: ["12", "14", "18", "21"],
     answer: "18",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -295,10 +238,7 @@ var allQuestionAnswers = [
     options: ["5", "10", "15", "20"],
     answer: "10",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -306,10 +246,7 @@ var allQuestionAnswers = [
     options: ["7", "13", "17", "20"],
     answer: "13",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -317,10 +254,7 @@ var allQuestionAnswers = [
     options: ["first", "second", "annual ", "None of the options"],
     answer: "first",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -333,10 +267,7 @@ var allQuestionAnswers = [
     ],
     answer: "All of the options",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -349,10 +280,7 @@ var allQuestionAnswers = [
     ],
     answer: "31st December following the end of such financial year",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -360,10 +288,7 @@ var allQuestionAnswers = [
     options: ["first return", "final return", "annual return", "cancel return"],
     answer: "final return",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -371,10 +296,7 @@ var allQuestionAnswers = [
     options: ["7", "12", "15", "20"],
     answer: "15",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -382,10 +304,7 @@ var allQuestionAnswers = [
     options: ["100", "200", "300", "400"],
     answer: "100",
     chapter: 11,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -393,10 +312,7 @@ var allQuestionAnswers = [
     options: ["Tax", "Interest", "Penalties", "All of the options"],
     answer: "All of the options",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -404,10 +320,7 @@ var allQuestionAnswers = [
     options: ["True", "False"],
     answer: "True",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -420,10 +333,7 @@ var allQuestionAnswers = [
     ],
     answer: "Either of Option A or B",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -436,10 +346,7 @@ var allQuestionAnswers = [
     ],
     answer: "All of the options",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -447,10 +354,7 @@ var allQuestionAnswers = [
     options: ["5th", "10th", "15th", "20th"],
     answer: "20th",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -458,10 +362,7 @@ var allQuestionAnswers = [
     options: ["Cash", "Credit", "Liability", "Reserve"],
     answer: "Cash",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -469,10 +370,7 @@ var allQuestionAnswers = [
     options: ["5th April", "10th April", "15th April", "20th April"],
     answer: "20th April",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -485,10 +383,7 @@ var allQuestionAnswers = [
     ],
     answer: "quarterly basis",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -501,10 +396,7 @@ var allQuestionAnswers = [
     ],
     answer: "Input Tax Credit ",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -512,10 +404,7 @@ var allQuestionAnswers = [
     options: ["Yes", "No"],
     answer: "Yes",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -523,10 +412,7 @@ var allQuestionAnswers = [
     options: ["Cash", "Credit", "Liability", "Reserve"],
     answer: "Credit",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -534,10 +420,7 @@ var allQuestionAnswers = [
     options: ["Tax", "Interest", "Penalty", "All of the options"],
     answer: "All of the options",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -550,10 +433,7 @@ var allQuestionAnswers = [
     ],
     answer: "Integrated tax",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -566,10 +446,7 @@ var allQuestionAnswers = [
     ],
     answer: "Central tax",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -582,10 +459,7 @@ var allQuestionAnswers = [
     ],
     answer: "State tax",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -598,10 +472,7 @@ var allQuestionAnswers = [
     ],
     answer: "Deposit in the electronic cash ledger",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -609,10 +480,7 @@ var allQuestionAnswers = [
     options: ["5%", "10%", "15%", "18%"],
     answer: "18%",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -620,10 +488,7 @@ var allQuestionAnswers = [
     options: ["1000", "3000", "5000", "10000"],
     answer: "5000",
     chapter: 12,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -636,10 +501,7 @@ var allQuestionAnswers = [
     ],
     answer: "All of the options",
     chapter: 13,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -652,10 +514,7 @@ var allQuestionAnswers = [
     ],
     answer: "Commissioner can withheld refund",
     chapter: 13,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -663,10 +522,7 @@ var allQuestionAnswers = [
     options: ["1", "2", "3", "4"],
     answer: "2",
     chapter: 13,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -674,10 +530,7 @@ var allQuestionAnswers = [
     options: ["1", "3", "6", "12"],
     answer: "6",
     chapter: 13,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -685,10 +538,7 @@ var allQuestionAnswers = [
     options: ["True", "False"],
     answer: "True",
     chapter: 13,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -696,10 +546,7 @@ var allQuestionAnswers = [
     options: ["50", "75", "90", "100"],
     answer: "90",
     chapter: 13,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -707,10 +554,7 @@ var allQuestionAnswers = [
     options: ["3", "4", "5", "6"],
     answer: "6",
     chapter: 13,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -718,10 +562,7 @@ var allQuestionAnswers = [
     options: ["500", "1000", "2500", "5000"],
     answer: "1000",
     chapter: 13,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -734,10 +575,7 @@ var allQuestionAnswers = [
     ],
     answer: "Comptroller and Auditor-General of India",
     chapter: 13,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -750,10 +588,7 @@ var allQuestionAnswers = [
     ],
     answer: "principal place of business",
     chapter: 14,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -761,10 +596,7 @@ var allQuestionAnswers = [
     options: ["Supplier ", "Recipient", "Proper Assessor", "Commissioner"],
     answer: "Commissioner",
     chapter: 14,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -777,10 +609,7 @@ var allQuestionAnswers = [
     ],
     answer: "All of the options",
     chapter: 14,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -788,10 +617,7 @@ var allQuestionAnswers = [
     options: ["True", "False"],
     answer: "True",
     chapter: 14,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -804,10 +630,7 @@ var allQuestionAnswers = [
     ],
     answer: "Chartered accountant ",
     chapter: 14,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -815,10 +638,7 @@ var allQuestionAnswers = [
     options: ["36", "60", "72", "120"],
     answer: "72",
     chapter: 14,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -826,10 +646,7 @@ var allQuestionAnswers = [
     options: ["1", "2", "3", "4"],
     answer: "1",
     chapter: 14,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -842,10 +659,7 @@ var allQuestionAnswers = [
     ],
     answer: "Provisional asssessment basis",
     chapter: 15,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -853,10 +667,7 @@ var allQuestionAnswers = [
     options: ["3", "6", "9", "12"],
     answer: "6",
     chapter: 15,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -869,10 +680,7 @@ var allQuestionAnswers = [
     ],
     answer: "Self Assessment",
     chapter: 15,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -880,10 +688,7 @@ var allQuestionAnswers = [
     options: ["30", "60", "90", "120"],
     answer: "30",
     chapter: 15,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -891,10 +696,7 @@ var allQuestionAnswers = [
     options: ["30", "60", "90", "120"],
     answer: "30",
     chapter: 15,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -902,10 +704,7 @@ var allQuestionAnswers = [
     options: ["1", "3", "5", "7"],
     answer: "5",
     chapter: 15,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -918,10 +717,7 @@ var allQuestionAnswers = [
     ],
     answer: "Summary Assessment",
     chapter: 15,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -934,10 +730,7 @@ var allQuestionAnswers = [
     ],
     answer: "Joint Commissioner ",
     chapter: 15,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -945,10 +738,7 @@ var allQuestionAnswers = [
     options: ["1", "3", "6", "12"],
     answer: "3",
     chapter: 16,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -956,10 +746,7 @@ var allQuestionAnswers = [
     options: ["1", "3", "5", "7"],
     answer: "3",
     chapter: 16,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -967,10 +754,7 @@ var allQuestionAnswers = [
     options: ["1", "2", "3", "4"],
     answer: "1",
     chapter: 16,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -983,10 +767,7 @@ var allQuestionAnswers = [
     ],
     answer: "Either of the options",
     chapter: 16,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -999,10 +780,7 @@ var allQuestionAnswers = [
     ],
     answer: "whichever is later of option A and B",
     chapter: 16,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1010,10 +788,7 @@ var allQuestionAnswers = [
     options: ["President", "Chairperson", "Commissioner", "Chief Justice"],
     answer: "President",
     chapter: 16,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1021,10 +796,7 @@ var allQuestionAnswers = [
     options: ["15", "30", "45", "60"],
     answer: "45",
     chapter: 16,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1037,10 +809,7 @@ var allQuestionAnswers = [
     ],
     answer: "All of the options",
     chapter: 16,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1053,10 +822,7 @@ var allQuestionAnswers = [
     ],
     answer: "substantial question of law",
     chapter: 16,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1069,10 +835,7 @@ var allQuestionAnswers = [
     ],
     answer: "All of the options",
     chapter: 16,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1085,10 +848,7 @@ var allQuestionAnswers = [
     ],
     answer: "Any of the options",
     chapter: 17,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1096,10 +856,7 @@ var allQuestionAnswers = [
     options: ["5", "10", "15", "20"],
     answer: "15",
     chapter: 17,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1107,10 +864,7 @@ var allQuestionAnswers = [
     options: ["1", "3", "6", "12"],
     answer: "3",
     chapter: 17,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1123,10 +877,7 @@ var allQuestionAnswers = [
     ],
     answer: "get his records examined and audited by a chartered accountant ",
     chapter: 17,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1139,10 +890,7 @@ var allQuestionAnswers = [
     ],
     answer: "Proper Officer",
     chapter: 17,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1155,10 +903,7 @@ var allQuestionAnswers = [
     ],
     answer: "All of the options",
     chapter: 18,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1166,10 +911,7 @@ var allQuestionAnswers = [
     options: ["inspection", "search", "search and seizure", "arrest"],
     answer: "search and seizure",
     chapter: 18,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1177,10 +919,7 @@ var allQuestionAnswers = [
     options: ["True", "False"],
     answer: "True",
     chapter: 18,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1188,10 +927,7 @@ var allQuestionAnswers = [
     options: ["inspection", "search", " seizure", "arrest"],
     answer: " seizure",
     chapter: 18,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1199,10 +935,7 @@ var allQuestionAnswers = [
     options: ["inspection", "search", " seizure", "detention"],
     answer: "detention",
     chapter: 18,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1210,10 +943,7 @@ var allQuestionAnswers = [
     options: ["15", "30", "60", "120"],
     answer: "60",
     chapter: 18,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1221,10 +951,7 @@ var allQuestionAnswers = [
     options: ["Yes", "No"],
     answer: "Yes",
     chapter: 18,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1232,10 +959,7 @@ var allQuestionAnswers = [
     options: ["Rs.1000", "Rs.5000", "Rs.10000", "Rs.25000"],
     answer: "Rs.10000",
     chapter: 19,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1248,10 +972,7 @@ var allQuestionAnswers = [
     ],
     answer: "higher of Option A or B",
     chapter: 19,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1264,10 +985,7 @@ var allQuestionAnswers = [
     ],
     answer: "higher of Option A or B",
     chapter: 19,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1275,10 +993,7 @@ var allQuestionAnswers = [
     options: ["Rs.5000", "Rs.15000", "Rs.20000", "Rs.25000"],
     answer: "Rs.25000",
     chapter: 19,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1286,10 +1001,7 @@ var allQuestionAnswers = [
     options: ["Rs.5000", "Rs.15000", "Rs.20000", "Rs.25000"],
     answer: "Rs.25000",
     chapter: 19,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1297,10 +1009,7 @@ var allQuestionAnswers = [
     options: ["True", "False"],
     answer: "True",
     chapter: 19,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1313,10 +1022,7 @@ var allQuestionAnswers = [
     ],
     answer: "Either of Option A or B",
     chapter: 19,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1329,10 +1035,7 @@ var allQuestionAnswers = [
     ],
     answer: "one hundred per cent. of the tax payable on such goods ",
     chapter: 19,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1345,10 +1048,7 @@ var allQuestionAnswers = [
     ],
     answer: "fifty per cent. of the tax payable on such goods ",
     chapter: 19,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1361,10 +1061,7 @@ var allQuestionAnswers = [
     ],
     answer: "All of the options",
     chapter: 20,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1372,10 +1069,7 @@ var allQuestionAnswers = [
     options: ["1 year", "3years", "5years", "7years"],
     answer: "5years",
     chapter: 20,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1388,10 +1082,7 @@ var allQuestionAnswers = [
     ],
     answer: "presume the existence of such mental state ",
     chapter: 20,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1399,10 +1090,7 @@ var allQuestionAnswers = [
     options: ["True", "False"],
     answer: "False",
     chapter: 20,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1410,10 +1098,7 @@ var allQuestionAnswers = [
     options: ["Rs.1 crore", "Rs. 2 crore", "Rs.3 crore", "Rs.4 crore"],
     answer: "Rs.1 crore",
     chapter: 20,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1421,10 +1106,7 @@ var allQuestionAnswers = [
     options: ["Yes", "No"],
     answer: "No",
     chapter: 21,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1437,10 +1119,7 @@ var allQuestionAnswers = [
     ],
     answer: "Aggregator",
     chapter: 21,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1448,10 +1127,7 @@ var allQuestionAnswers = [
     options: ["5", "10", "15", "20"],
     answer: "10",
     chapter: 21,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1459,10 +1135,7 @@ var allQuestionAnswers = [
     options: ["5", "10", "15", "20"],
     answer: "10",
     chapter: 21,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1475,10 +1148,7 @@ var allQuestionAnswers = [
     ],
     answer: "electronic cash ledger",
     chapter: 21,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1491,10 +1161,7 @@ var allQuestionAnswers = [
     ],
     answer: "All of the options",
     chapter: 22,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1502,10 +1169,7 @@ var allQuestionAnswers = [
     options: ["10", "20", "30", "45"],
     answer: "30",
     chapter: 22,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1513,10 +1177,7 @@ var allQuestionAnswers = [
     options: ["Yes", "No"],
     answer: "Yes",
     chapter: 22,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1529,10 +1190,7 @@ var allQuestionAnswers = [
     ],
     answer: "All of the options",
     chapter: 22,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1540,10 +1198,7 @@ var allQuestionAnswers = [
     options: ["3", "6", "9", "12"],
     answer: "3",
     chapter: 22,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1551,10 +1206,7 @@ var allQuestionAnswers = [
     options: ["3", "6", "9", "12"],
     answer: "6",
     chapter: 22,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1562,10 +1214,7 @@ var allQuestionAnswers = [
     options: ["Rupee", "hundred", "thousand", "lakh"],
     answer: "Rupee",
     chapter: 22,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1573,10 +1222,7 @@ var allQuestionAnswers = [
     options: ["True", "False"],
     answer: "True",
     chapter: 23,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1584,10 +1230,7 @@ var allQuestionAnswers = [
     options: ["3 months", "6 months", "9 months", "12 months"],
     answer: "6 months",
     chapter: 23,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
   {
     question:
@@ -1595,9 +1238,6 @@ var allQuestionAnswers = [
     options: ["debit note ", "promissory note", "credit note", "upward note"],
     answer: "debit note ",
     chapter: 23,
-    isAnswered: false,
-    isFlagged: false,
     marks: 1,
-    selectedAnswer: "",
   },
 ];
