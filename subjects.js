@@ -1,5 +1,17 @@
 var subjects = [
   {
+    code: 66,
+    name: "Cost Accounting",
+  },
+  {
+    code: 404,
+    name: "Innovation Management",
+  },
+  {
+    code: 408,
+    name: "Strategic Management",
+  },
+  {
     code: 526,
     name: "Financial Management I",
   },
