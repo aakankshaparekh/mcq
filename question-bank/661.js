@@ -167,7 +167,7 @@ var allQuestionAnswers = [
   },
   {
     question:
-      "What is the rate of “additional depreciation” available for the new machinery or plant, has been acquired and installed after the 31st day of March, 2002 by an assessee engaged in the business of manufacture or production of any article or thing?\n\nWhat is the rate of “additional depreciation” available for the new machinery or plant, has been acquired and installed after the 31st day of March, 2002 by an assessee engaged in the business of manufacture or production of any article or thing?\n\nWhat is the rate of “additional depreciation” available for the new machinery or plant, has been acquired and installed after the 31st day of March, 2002 by an assessee engaged in the business of manufacture or production of any article or thing?\n\nWhat is the rate of “additional depreciation” available for the new machinery or plant, has been acquired and installed after the 31st day of March, 2002 by an assessee engaged in the business of manufacture or production of any article or thing?\n\nWhat is the rate of “additional depreciation” available for the new machinery or plant, has been acquired and installed after the 31st day of March, 2002 by an assessee engaged in the business of manufacture or production of any article or thing?",
+      "What is the rate of “additional depreciation” available for the new machinery or plant, has been acquired and installed after the 31st day of March, 2002 by an assessee engaged in the business of manufacture or production of any article or thing?",
     options: ["5 %", "10 %", "20 %", "25 %"],
     answer: "20 %",
     chapter: 6,
@@ -215,7 +215,7 @@ var allQuestionAnswers = [
   },
   {
     question:
-      "What is the quantum of deduction where an assessee incurs any expenditure in any previous year by way of payment of any sum to an employee at the time of his voluntary retirement, in accordance with any scheme or schemes of voluntary retirement?\n\nWhat is the quantum of deduction where an assessee incurs any expenditure in any previous year by way of payment of any sum to an employee at the time of his voluntary retirement, in accordance with any scheme or schemes of voluntary retirement?",
+      "What is the quantum of deduction where an assessee incurs any expenditure in any previous year by way of payment of any sum to an employee at the time of his voluntary retirement, in accordance with any scheme or schemes of voluntary retirement?",
     options: [
       "20% of the amount so paid shall be deducted in 5 succeeding years",
       "10 % of the amount so paid shall be deducted in 10 succeeding years",
@@ -311,7 +311,7 @@ var allQuestionAnswers = [
   },
   {
     question:
-      "Q.4\tUnder section 2(47), Transfer, in relation to Capital Asset, includes –",
+      "Under section 2(47), Transfer, in relation to Capital Asset, includes –",
     options: [
       "the sale, exchange or relinquishment of the asset",
       "the extinguishment of any rights therein",
@@ -324,7 +324,7 @@ var allQuestionAnswers = [
   },
   {
     question:
-      "Who is liable to pay Capital Gain tax \tin case of sale of dematerialized shares?",
+      "Who is liable to pay Capital Gain tax in case of sale of dematerialized shares?",
     options: [
       "Depository",
       "Depository Participant",
@@ -419,7 +419,7 @@ var allQuestionAnswers = [
   },
   {
     question:
-      "Against which head of income the “long term capital loss” can be set off?\n\nAgainst which head of income the “long term capital loss” can be set off?",
+      "Against which head of income the “long term capital loss” can be set off?",
     options: [
       "Either against Short Term Capital Gain or against Long Term Capital Gain",
       "Against Profits or Gains from Business or Profession",
@@ -562,7 +562,7 @@ var allQuestionAnswers = [
   },
   {
     question:
-      "Any income arising to any person by virtue of a transfer, where there is no actual transfer of the assets from which the income arises, shall be chargeable\nto income-tax as the income of –",
+      "Any income arising to any person by virtue of a transfer, where there is no actual transfer of the assets from which the income arises, shall be chargeable to income-tax as the income of –",
     options: [
       "The Transferee",
       "The Transferor",
@@ -894,7 +894,7 @@ var allQuestionAnswers = [
   },
   {
     question:
-      "Mr. Paresh Nandekar has paid premium for the health of his family and parents. Premium paid for Self &amp; Faimly is Rs. 13,500/-. Premium paid for Parents is Rs. 22,500/-. His parents are senior citizens. Calculate the amount of deduction available to Mr. Nandekar under section 80D?",
+      "Mr. Paresh Nandekar has paid premium for the health of his family and parents. Premium paid for Self & Faimly is Rs. 13,500/-. Premium paid for Parents is Rs. 22,500/-. His parents are senior citizens. Calculate the amount of deduction available to Mr. Nandekar under section 80D?",
     options: ["Rs. 13,500/-", "Rs. 22,500/-", "Rs. 36,000/-", "Rs. 33,500/-"],
     answer: "Rs. 33,500/-",
     chapter: 11,
