@@ -35,4 +35,16 @@ var subjects = [
     code: 315,
     name: "International Finance",
   },
+  {
+    code: 413,
+    name: "Retail Banking",
+  },
+//  {
+//    code: 314,
+//    name: "Mergers and Acquisitions",
+//  },
+//  {
+//    code: 425,
+//    name: "Project Finance",
+//  },
 ];
