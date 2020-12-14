@@ -39,12 +39,12 @@ var subjects = [
     code: 413,
     name: "Retail Banking",
   },
-//  {
-//    code: 314,
-//    name: "Mergers and Acquisitions",
-//  },
-//  {
-//    code: 425,
-//    name: "Project Finance",
-//  },
+  {
+    code: 314,
+    name: "Mergers and Acquisitions",
+  },
+  {
+    code: 425,
+    name: "Project Finance",
+  },
 ];
