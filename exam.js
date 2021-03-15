@@ -123,6 +123,50 @@ function renderQuestionStatusTable() {
   ).innerHTML = questionStatusTable.join("");
 }
 
+function renderAllQuestions() {
+  isExamFinished = true;
+  if (questionInterval) {
+    clearInterval(questionInterval);
+  }
+  questionAnswers.forEach((questionAnswer, questionIndex) => {
+    let queAns = `<div class="question-answer" data-qid="${questionIndex}">`;
+    queAns += `<div class="question-header">Question ${
+      questionIndex + 1
+    } of ${totalQuestions} <span class="chapter-number" style="display: ${
+      isExamFinished ? "inline-block" : "none"
+    }">${
+      "Chapter " + questionAnswer.chapter
+    } </span> <span class="question-marks">Marks: ${
+      questionAnswer.marks
+    }</span></div>`;
+    queAns += `<div class="question">` + questionAnswer.question + "</div>";
+    queAns +=
+      `<div class="options" data-qid="${questionIndex}">` +
+      questionAnswer.options
+        .map(
+          (option, optionIndex) =>
+            `<div class="option ${
+              isExamFinished &&
+              questionAnswer.isAnswered &&
+              questionAnswer.selectedAnswer === option &&
+              !questionAnswer.isAnsweredCorrectly
+                ? "incorrect-answer"
+                : ""
+            } ${
+              isExamFinished && questionAnswer.answer === option
+                ? "correct-answer"
+                : ""
+            }"><input type="radio" name="q-${questionIndex}" value="o-${optionIndex}" data-oid="${optionIndex}" ${
+              questionAnswer.selectedAnswer === option ? "checked" : ""
+            } onClick="setAnswer(${questionIndex}, '${option}')">${option}</input></div>`
+        )
+        .join("") +
+      "</div>";
+    queAns += `</div>`;
+    document.getElementById("questionsHolder").appendChild(queAns);
+  });
+}
+
 function renderQuestion(questionIndex) {
   if (questionIndex !== undefined) {
     currentQuestionIndex = questionIndex;
@@ -247,7 +291,8 @@ function convertMillisecondsToTimeString(timeInMs, config) {
 function renderQuestionAnswers() {
   document.getElementById("syllabus").innerText =
     "Chapters: " + chaptersSelected.join(", ");
-  renderQuestion(0); // Render first question
+//   renderQuestion(0); // Render first question
+  renderAllQuestions();
   renderQuestionStatusTable();
   renderButtons();
   manageTime();
