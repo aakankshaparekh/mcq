@@ -163,7 +163,8 @@ function renderAllQuestions() {
         .join("") +
       "</div>";
     queAns += `</div>`;
-    document.getElementById("questionsHolder").appendChild(queAns);
+    // document.getElementById("questionsHolder").appendChild(queAns);
+    jQuery("#questionsHolder").append(queAns);
   });
 }
 
