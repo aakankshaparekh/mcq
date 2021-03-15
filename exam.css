@@ -34,6 +34,10 @@
   border-radius: 5px;
 }
 
+.question-answer:not(:first-child) {
+    margin-top: 10px;
+}
+
 .question-answer .question-header {
   padding: 10px;
   background-color: #e5f1ff;
