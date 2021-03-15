@@ -128,6 +128,7 @@ function renderAllQuestions() {
   if (questionInterval) {
     clearInterval(questionInterval);
   }
+
   questionAnswers.forEach((questionAnswer, questionIndex) => {
     let queAns = `<div class="question-answer" data-qid="${questionIndex}">`;
     queAns += `<div class="question-header">Question ${
@@ -292,8 +293,11 @@ function convertMillisecondsToTimeString(timeInMs, config) {
 function renderQuestionAnswers() {
   document.getElementById("syllabus").innerText =
     "Chapters: " + chaptersSelected.join(", ");
-//   renderQuestion(0); // Render first question
-  renderAllQuestions();
+  if (localStorage.getItem('renderMode') === 'all') {
+    renderAllQuestions();
+  } else {
+    renderQuestion(0); // Render first question
+  }
   renderQuestionStatusTable();
   renderButtons();
   manageTime();
