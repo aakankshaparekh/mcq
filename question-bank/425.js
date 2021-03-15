@@ -1,20 +1,20 @@
 var chapters = [
-  { chapter: 1, title: "The project" },
-  { chapter: 2, title: "Project appraisal" },
-  { chapter: 3, title: "Technical appraisal" },
-  { chapter: 4, title: "Economic appraisal" },
-  { chapter: 5, title: "Market appraisal" },
-  { chapter: 6, title: "Financial appraisal" },
-  { chapter: 7, title: "Capital structure" },
-  // { chapter: 8, title: "Presentation of your project for financer" },
-  // { chapter: 9, title: "Term loans" },
-  // { chapter: 10, title: "Working capital finance" },
-  // { chapter: 11, title: "Private equity" },
-  // { chapter: 12, title: "Public listing of security" },
-  // { chapter: 13, title: "International capital" },
-  // { chapter: 14, title: "Crowd funding" },
-  // { chapter: 15, title: "Project planning risk & managment" },
-  // { chapter: 16, title: "Project quality assurance & audit" },
+  //   { chapter: 1, title: "The project" },
+  //   { chapter: 2, title: "Project appraisal" },
+  //   { chapter: 3, title: "Technical appraisal" },
+  //   { chapter: 4, title: "Economic appraisal" },
+  //   { chapter: 5, title: "Market appraisal" },
+  //   { chapter: 6, title: "Financial appraisal" },
+  //   { chapter: 7, title: "Capital structure" },
+  { chapter: 8, title: "Presentation of your project for financer" },
+  { chapter: 9, title: "Term loans" },
+  { chapter: 10, title: "Working capital finance" },
+  { chapter: 11, title: "Private equity" },
+  { chapter: 12, title: "Public listing of security" },
+  { chapter: 13, title: "International capital" },
+  { chapter: 14, title: "Crowd funding" },
+  { chapter: 15, title: "Project planning risk & managment" },
+  { chapter: 16, title: "Project quality assurance & audit" },
 ];
 var allQuestionAnswers = [
   {
@@ -742,6 +742,871 @@ var allQuestionAnswers = [
     ],
     answer: "Franco Modigliani",
     chapter: 7,
+    marks: 1,
+  },
+  {
+    question:
+      "Ashish Gupta is having an idea for starting a new Chemical factory. He is writing a business plan for himself partners, financers, etc. Which of the following points is not relevant in his Business Plan?",
+    options: [
+      "Details of site location, accessibility",
+      "Details of production process followed and various technical parameters",
+      "Details of potential bulk purchasers and market segmentation",
+      "Elaborate details of past educational qualifications of the promoter",
+    ],
+    answer:
+      "Elaborate details of past educational qualifications of the promoter",
+    chapter: 8,
+    marks: 1,
+  },
+  {
+    question:
+      "Jayesh Dalal is having an idea for starting a new software development start-up catering to advanced movie animation business. He is writing a business plan for himself partners, financers, etc. Which of the following points is relevant in his Business Plan?",
+    options: [
+      "Details of office location, accessibility",
+      "Details of government approval process",
+      "Details of research and past success of alternative/similar products",
+      "Details of private equity funding, cashflow statements",
+    ],
+    answer: "Details of private equity funding, cashflow statements",
+    chapter: 8,
+    marks: 1,
+  },
+  {
+    question:
+      "When an investor will be presented a business plan. He will look at some aspects of the plan in great detail. Which of the following points might he not look into in great detail?",
+    options: [
+      "Estimated return on investment",
+      "Exit strategy for investors",
+      "Milestones or conditions that company will accept",
+      "Collateral offered, and a list of all existing liens against collateral",
+    ],
+    answer:
+      "Collateral offered, and a list of all existing liens against collateral",
+    chapter: 8,
+    marks: 1,
+  },
+  {
+    question:
+      "Nimish Zaveri is having an idea for starting a new plant to manufacture plastic bottles. He is writing a business plan for himself partners, bankers, etc. Which of the following points is irrelevant in his Business Plan?",
+    options: [
+      "Details of site location",
+      "Details and cost of availability of electric power",
+      "Details of government approval process",
+      "Details of market for end products, marketing team and potential",
+    ],
+    answer: "Details of government approval process",
+    chapter: 8,
+    marks: 1,
+  },
+  {
+    question:
+      "Bhavesh Anandpara is setting up a manufacturing company. When an investor will be presented a business plan, which among the following is irrelevant for a manufacturing company?",
+    options: [
+      "Planned production levels",
+      "Anticipated levels of direct production costs and indirect (overhead) costs",
+      "How the company protects intellectual property?",
+      "Production/capacity limits of planned physical plant",
+    ],
+    answer: "How the company protects intellectual property?",
+    chapter: 8,
+    marks: 1,
+  },
+  {
+    question:
+      "Which of the following is not one of the documents required alongwith your project loan application?",
+    options: [
+      "Title documents of the land and building",
+      "Identification proof of the borrowers & guara",
+      "School Passing Certificate",
+      "Duly filled application form",
+    ],
+    answer: "School Passing Certificate",
+    chapter: 8,
+    marks: 1,
+  },
+  {
+    question: "Which of the following is not importance of a Business Plan?",
+    options: [
+      "To Hire new people",
+      "To develop new alliances",
+      "Sets specific objectives for managers",
+      "Share with your friends and community",
+    ],
+    answer: "Share with your friends and community",
+    chapter: 8,
+    marks: 1,
+  },
+  {
+    question:
+      "Aakash is having an idea for starting a new restaurant. He is writing a business plan for himself partners, financers, etc. Which of the following points is not relevant in his Business Plan?",
+    options: [
+      "Details of location, accessibility",
+      "Details of target customers",
+      "Details of government approval process",
+      "Details of funding and profitability",
+    ],
+    answer: "Details of government approval process",
+    chapter: 8,
+    marks: 1,
+  },
+  {
+    question: "Debt is least costly source of long-term financing because:",
+    options: [
+      "equity financers are very greedy and want more return",
+      "in case of default, the lender can seize the financed ass",
+      "interest on debt is tax-deductible",
+      "it is a universal trend since long time",
+    ],
+    answer: "interest on debt is tax-deductible",
+    chapter: 9,
+    marks: 1,
+  },
+  {
+    question: "Which of these is not an advantage of Term Loan?",
+    options: [
+      "Only large scale, creditworthy firm, whose assets are good for collateral can raise capital from long-term debt.",
+      "Accounting entries for term loan transactions are clear and easy",
+      "The company can enjoy tax saving on interest on debt",
+      "Debt financing provides sufficient flexibility in the financial/capital structure of the company",
+    ],
+    answer:
+      "Only large scale, creditworthy firm, whose assets are good for collateral can raise capital from long-term debt.",
+    chapter: 9,
+    marks: 1,
+  },
+  {
+    question:
+      "Select the best answer. With reference to Term Loans, what is usually done in the ‘Monitoring’ stage?",
+    options: [
+      "Periodic site visits",
+      "Regular reports, furnished by the company, which provide information about placement of orders, construction of buildings, procurement of plant, installation of plant and machinery trial production, etc,",
+      "Audited accounts of the company",
+      "All of the above",
+    ],
+    answer: "All of the above",
+    chapter: 9,
+    marks: 1,
+  },
+  {
+    question:
+      "Anand Jewellery Manufacturing Company needs Rs. 5,00,000/- Term Loan  for manufacturing exquisite diamond jewellery. Three loans are available to it for 5 years of financing required. \nSurat bank requires annual instalments of Rs. 1,25,000/- each\nKapol bank requires annual instalments of 150000, 150000, 120000, 100000, 100000\nBaroda bank requires annual instalments of 75,000 for first four years and 3,25,000 for the last year. The Company’s after tax cost of capital is 6% and its tax bracket is 50%. Which loan is most advantageous cost-wise to the company?",
+    options: ["Surat bank", "Kapol bank", "Baroda bank"],
+    answer: "Surat bank",
+    chapter: 9,
+    marks: 1,
+  },
+  {
+    question:
+      "With reference to Term Loans, what is meant by ‘Execution of Loan Agreement’?",
+    options: [
+      "Counter sign by the borrower on the Sanction Letter, accepting its conditions",
+      "A Creation of mortgage over the immovable properties and hypothecation of the movable properties to secure these assets",
+      "Signing of the properly stamped agreement enlisting various terms and conditions of the Loan by the borrower",
+      "all of the above",
+    ],
+    answer:
+      "Signing of the properly stamped agreement enlisting various terms and conditions of the Loan by the borrower",
+    chapter: 9,
+    marks: 1,
+  },
+  {
+    question: "What is meant by DSCR? What does it suggest?",
+    options: [
+      "Debt Service Coverage Ratio. It checks the leverage of the financial institution",
+      "Debt Service Coverage Ratio. It checks the net working capital level of the project",
+      "Debt Service Coverage Ratio. It checks the repayment potential of the project",
+      "answers a) and b)  above",
+    ],
+    answer:
+      "Debt Service Coverage Ratio. It checks the repayment potential of the project",
+    chapter: 9,
+    marks: 1,
+  },
+  {
+    question:
+      "Tulsi Shah wants to take a Term Loan from a bank for starting her Media company. Which of the following is considered before she decides to avail a Term Loan?",
+    options: [
+      "Idea Generation",
+      "Letter of Credit",
+      "Interest and Principal Repayment",
+      "all of the above",
+    ],
+    answer: "Interest and Principal Repayment",
+    chapter: 9,
+    marks: 1,
+  },
+  {
+    question: "Ratios relating to working capital are:",
+    options: [
+      "Net Profit Margin, Return on Total Assets, Inventory Turnover",
+      "Cash turnover ratio, Current Assets Turnover Ratio, Working Capital Turnover Ratio",
+      "Turnover of finished goods, Turnover of goods-in-process, Turnover of aggregate inventory",
+      "Current ratio, Interval Measure, Quick ratio",
+    ],
+    answer: "Current ratio, Interval Measure, Quick ratio",
+    chapter: 10,
+    marks: 1,
+  },
+  {
+    question:
+      "Which of the following is not a type of Working Capital facility?",
+    options: ["Bank Overdraft", "Cash Credit", "Term Loan", "Bank Guarantee"],
+    answer: "Term Loan",
+    chapter: 10,
+    marks: 1,
+  },
+  {
+    question:
+      "Which of the following is not correct with respect to Letter of Credit?",
+    options: [
+      "Buyer would buy a Letter of Credit and send it to the seller",
+      "Letter of Credit can be revoked in case of non-performance of the opposite party and money can be remitted to the seller",
+      "It is also known as non-fund based working capital financing",
+      "Bank will pay the opposite party as soon as the party performs as per agreed terms",
+    ],
+    answer:
+      "Letter of Credit can be revoked in case of non-performance of the opposite party and money can be remitted to the seller",
+    chapter: 10,
+    marks: 1,
+  },
+  {
+    question:
+      "State whether True False. Bill Discounting is a non-fund based working capital facility",
+    options: ["True", "False"],
+    answer: "False",
+    chapter: 10,
+    marks: 1,
+  },
+  {
+    question:
+      "Fill in the appropriate word.  ________________is the ratio of Net Current Assets to the Current Liabilities",
+    options: [
+      "Quick Ratio",
+      "Current Ratio",
+      "Interval Measure",
+      "Cash turnover",
+    ],
+    answer: "Quick Ratio",
+    chapter: 10,
+    marks: 1,
+  },
+  {
+    question:
+      "Fill in the appropriate word. Dividend Yield is obtained by dividing _______________ by ______________.",
+    options: [
+      "Dividend yield per share by Share Price",
+      "Dividend by the Net Profit after tax",
+      "Dividend by the Gross Sales",
+      "none of the above",
+    ],
+    answer: "Dividend yield per share by Share Price",
+    chapter: 10,
+    marks: 1,
+  },
+  {
+    question:
+      "State whether True or False. High dividend yield is indicative of investors' expectation of low dividend growth or requirement of a high return.",
+    options: ["True", "False"],
+    answer: "True",
+    chapter: 10,
+    marks: 1,
+  },
+  {
+    question:
+      "Fill in the appropriate word. Price to Earnings ratio is obtained by dividing _______________ by ______________.",
+    options: [
+      "Inventory Price by Gross Earnings",
+      "Earnings per share by Stock Price",
+      "Stock Price by Earnings per share",
+      "none of the above",
+    ],
+    answer: "Stock Price by Earnings per share",
+    chapter: 10,
+    marks: 1,
+  },
+  {
+    question:
+      "State whether True or False. A high Sales to Net Working Capital ratio indicates a very inefficient use of working capital in the enterprise.",
+    options: ["True", "False"],
+    answer: "False",
+    chapter: 10,
+    marks: 1,
+  },
+  {
+    question:
+      "State whether True or False. A high inventory turnover ratio indicates an over investment in inventory in relation to sales.",
+    options: ["True", "False"],
+    answer: "False",
+    chapter: 10,
+    marks: 1,
+  },
+  {
+    question: "What is Third-Round Funding w.r.t. Venture Capital?",
+    options: [
+      "The initial small amount of capital used to develop a product or prove a concept.",
+      "Financing for companies that is at least breaking-even and is considering expansion",
+      "Additional funds for the company to begin sales and manufacturing",
+      "Funds providing working capital to a company whose product in selling but is still losing money",
+    ],
+    answer:
+      "Financing for companies that is at least breaking-even and is considering expansion",
+    chapter: 11,
+    marks: 1,
+  },
+  {
+    question:
+      "Which among the following is not one of the top four private equity firms in the U.S.?",
+    options: [
+      "TPG Capital",
+      "Kohlberg Kravis Roberts",
+      "Goldman Sachs Principal Investment Area",
+      "J P Morgan Capital",
+    ],
+    answer: "J P Morgan Capital",
+    chapter: 11,
+    marks: 1,
+  },
+  {
+    question:
+      "State whether True or False. Venture represents financial investment in a risky proposition made in the hope of earning a low rate of return.",
+    options: ["True", "False"],
+    answer: "False",
+    chapter: 11,
+    marks: 1,
+  },
+  {
+    question:
+      "Which among the following is not one of the leading private equity firms in India?",
+    options: [
+      "Blackstone group",
+      "Ascent Capital",
+      "TPG Capital",
+      "Everstone Capital",
+    ],
+    answer: "TPG Capital",
+    chapter: 11,
+    marks: 1,
+  },
+  {
+    question: "When should a company decide to take Private Equity?",
+    options: [
+      "When the promoters do not want to use their own equity",
+      "When the promoters are reluctant to approach banks, NBFCs",
+      "When the company is young having a great project or idea but not sufficient track record",
+      "When the promoters want to establish themselves as having some exposure in Private Equity",
+    ],
+    answer:
+      "When the company is young having a great project or idea but not sufficient track record",
+    chapter: 11,
+    marks: 1,
+  },
+  {
+    question:
+      "Samir Choksi wants to start a new biotechnology company. He has seen the performance of the new molecule on cancer treatment and he has got a very good report from various Clinical Trials on humans. He wants to start manufacturing it. He does not have any track record. He will require Private Equity to covert his dreams to a reality. How must he present himself and his company before the Venture Capital Fund?",
+    options: [
+      "He must prepare a back-up plan in case they are not keen to fund his company",
+      "He must convey his vision of converting his company to public limited in 3 years",
+      "He must use technical and bombastic language to dominate the Venture Capital investors",
+      "He must emphasis the returns that the project is likely to generate",
+    ],
+    answer:
+      "He must convey his vision of converting his company to public limited in 3 years",
+    chapter: 11,
+    marks: 1,
+  },
+  {
+    question:
+      "Which amongst the following is true with respect to Private Equity Companies in India?",
+    options: [
+      "It is difficult from outside to judge the performance of a Private Equity firm as they do not disclose their financial statements",
+      "Private Equity is the last resort for any company",
+      "Many times Private Equity Investors talk sweetly and go for hostile takeovers after they have acquired the necessary shareholding",
+      "Usually Private Equity Investors ask for a management seat on Board of Directors of the company",
+    ],
+    answer:
+      "It is difficult from outside to judge the performance of a Private Equity firm as they do not disclose their financial statements",
+    chapter: 11,
+    marks: 1,
+  },
+  {
+    question: "What does Turnaround Capital typically so?",
+    options: [
+      "It uses a mix of debt and equity to fulfil the financial needs of the project",
+      "It invests in financially-troubled companies, buys inexpensively, potentially restructured and exits with a healthy profit",
+      "It invests in new companies – technology, biotechnology and green energy sectors",
+      "It invests in mature companies deemed to be undervalued",
+    ],
+    answer:
+      "It invests in financially-troubled companies, buys inexpensively, potentially restructured and exits with a healthy profit",
+    chapter: 11,
+    marks: 1,
+  },
+  {
+    question:
+      "Mukesh Mistry, an electronics engineer has invented a new proto-type of decorative lights. He has talked to a few lighting dealers and had got a very good report. He wants to start commercial production of this product.  He has just left his job with L&amp;T to fully concentrate on his maiden venture. He estimates the Cost of the Project to be around Rs. 30 crores (US$5 million). Which of the following avenues of funding should he try for?",
+    options: [
+      "Ask his friends and relatives",
+      "Approach a Commercial bank",
+      "Approach a Venture Capital Fund",
+      "None of the above",
+    ],
+    answer: "Approach a Venture Capital Fund",
+    chapter: 11,
+    marks: 1,
+  },
+  {
+    question: "Private Equity is defined as:",
+    options: [
+      "Money from the general public investing mainly in shares through the secondary market",
+      "Money borrowed from bank repayable usually as per terms of Sanction",
+      "Money from Private Equity firms that invest by taking shares in companies they consider attractive",
+      "Money collected from crowds to fund profitable and social projects",
+    ],
+    answer:
+      "Money from Private Equity firms that invest by taking shares in companies they consider attractive",
+    chapter: 11,
+    marks: 1,
+  },
+  {
+    question:
+      "State whether True of False. An informal survey shows that nearly 27% of companies that are seed-funded actually raise the required angel round.",
+    options: ["True", "False"],
+    answer: "True",
+    chapter: 11,
+    marks: 1,
+  },
+  {
+    question:
+      "For a company wanting to raise money by listing his company in Singapore. He will list his company on which exchange?",
+    options: ["ASX", "Bourse", "SSE", "SGX"],
+    answer: "SGX",
+    chapter: 12,
+    marks: 1,
+  },
+  {
+    question:
+      "A company wants to raise money by listing his company in Malaysia. He will list his company on which exchange?",
+    options: ["NYSE", "Bourse", "MSE", "NSE"],
+    answer: "Bourse",
+    chapter: 12,
+    marks: 1,
+  },
+  {
+    question:
+      "State whether True False. To list its stock on an international exchange, a company must comply with any listing requirements established by the exchange and a host of laws and regulations enforced by the government regulator (True/False)",
+    options: ["True", "False"],
+    answer: "True",
+    chapter: 12,
+    marks: 1,
+  },
+  {
+    question:
+      "Which amongst these is not a type of stock which a company can offer to the public?",
+    options: ["Warrants", "Debentures", "Rights", "Loans"],
+    answer: "Loans",
+    chapter: 12,
+    marks: 1,
+  },
+  {
+    question:
+      "State True or False. Holders of Preferred Stock can get dividends every year, these shareholders are also permitted to vote on important company resolutions. (True/False)",
+    options: ["True", "False"],
+    answer: "True",
+    chapter: 12,
+    marks: 1,
+  },
+  {
+    question:
+      "State True or False. Preferred Stock holders can force a company into bankruptcy if it misses paying principal and interest payments on time. (True/False)",
+    options: ["True", "False"],
+    answer: "False",
+    chapter: 12,
+    marks: 1,
+  },
+  {
+    question:
+      "Srenik Shah, Director of Aaryaman Capital Markets Ltd is a merchant banker for various SMEs and helps in the listing of various companies in the Indian Stock Markets. Which of the following is a Stock Exchange to list a company.",
+    options: ["BSESME", "ASX", "NYSE", "LSE"],
+    answer: "BSESME",
+    chapter: 12,
+    marks: 1,
+  },
+  {
+    question:
+      "Shweta Jain is planning to raise funds to start her own chain of dance academies throughtout the country. She meets Shripal Shah, director of Aryaman Capital Markets Ltd which helps SMEs raise capital from the Capital Markets. By which of the following methods can she raise capital?",
+    options: ["ESOPs", "Rights Issue", "IPO", "ESOPs"],
+    answer: "IPO",
+    chapter: 12,
+    marks: 1,
+  },
+  {
+    question:
+      "Fill in the blank. A smaller unit into which the overall requirement of capital of a company is sub-divided is termed as _____________.",
+    options: ["Term Loans", "Share", "Quasi Equity Capital", "Dividend"],
+    answer: "Share",
+    chapter: 12,
+    marks: 1,
+  },
+  {
+    question:
+      "Girish Nulli is heading a very successful Software firm GN Software.  In the past five years, he has successfully steered his company from negligible turnover to the skies. He requires additional capital to set-up offices in various parts of the country. After studying his annual reports and other papers, his consultant’s advice him to list his company and raise money from the capital markets – local or international. Which among the following is not a benefit of a company decides to go public?",
+    options: [
+      "Dilution",
+      "Liquidity",
+      "Lower cost of capital",
+      "Respectability",
+    ],
+    answer: "Dilution",
+    chapter: 12,
+    marks: 1,
+  },
+  {
+    question:
+      "State whether True False. Sweat Equity is a tool that a company by selline of additional shares to existing company shareholders only and is not meant for general public",
+    options: ["True", "False"],
+    answer: "False",
+    chapter: 12,
+    marks: 1,
+  },
+  {
+    question:
+      "State True or False. Public Listed companies enjoy more pool of capital but are bound by various regulations such as submission of quarterly shareholding patterns, quarterly and annual results and various company officials are bound by Insider trading regulations.",
+    options: ["True", "False"],
+    answer: "True",
+    chapter: 12,
+    marks: 1,
+  },
+  {
+    question:
+      "State whether True or False. According to International experts, the equity issuance to Indian companies by international investors started mainly after 2004 when the Indian economy saw a good economic growth.",
+    options: ["True", "False"],
+    answer: "True",
+    chapter: 13,
+    marks: 1,
+  },
+  {
+    question:
+      "State whether True or False. Now, Indian domestic capital market is mature to handle even “jumbo” equity offerings.",
+    options: ["True", "False"],
+    answer: "True",
+    chapter: 13,
+    marks: 1,
+  },
+  {
+    question:
+      "In 2005-06, which type of companies mainly raised capital from GDR Listings in Luxemburg?",
+    options: [
+      "Small deals around US$20-US$110 million issued by mid-cap firms",
+      "Large deals around US$1.0 billion issued by large-cap firms",
+      "Micro deals upto US$1.0 million issued by small -cap firms",
+      "Ultra-Large deals issued by Government Companies",
+    ],
+    answer: "Small deals around US$20-US$110 million issued by mid-cap firms",
+    chapter: 13,
+    marks: 1,
+  },
+  {
+    question:
+      "Which of the following companies have not raised international capital in 2005-2010 period?",
+    options: ["NMDC", "Reliance Ltd", "NTPC", "ONGC"],
+    answer: "Reliance Ltd",
+    chapter: 13,
+    marks: 1,
+  },
+  {
+    question:
+      "Why did the Indian GDR issuances die in 2007 as compared to earlier years? (Number of issuances fell from 26 to 4)",
+    options: [
+      "That year the domestic Indian markets were at an all time hig",
+      "Indian GDRs died as more investors got access to domestic market via FII licenses",
+      "The American markets were very favourable that year and number of companies listed themselves on NYSE/NASDAQ",
+      "None of the above",
+    ],
+    answer:
+      "Indian GDRs died as more investors got access to domestic market via FII licenses",
+    chapter: 13,
+    marks: 1,
+  },
+  {
+    question:
+      "Which of the following is an attraction for Indian companies issuing GDRs?",
+    options: [
+      "There is no regulatory control",
+      "They are issued in voting form but most international investors are generally absent during the AGMs",
+      "They can be issued in non-voting form",
+      "They can be issued in non-voting form",
+    ],
+    answer: "They can be issued in non-voting form",
+    chapter: 13,
+    marks: 1,
+  },
+  {
+    question: "Which International crisis has occurred during 2008?",
+    options: [
+      "Agriculture Scam",
+      "U.S. Real Estate",
+      "Credit",
+      "U.S. Credit Card Scam",
+    ],
+    answer: "Credit",
+    chapter: 13,
+    marks: 1,
+  },
+  {
+    question: "Why are Indian Banks attracted for listing to NYSE (New York)?",
+    options: [
+      "There is a perception that tighter disclosure norms and greater ADR liquidity will strengthen investor confidence",
+      "As the regulatory requirements are easier to fulfil viz-a-viz London and Singapore",
+      "As the U.S. investors have a greater appetite towards Indian Companies",
+      "All of the above",
+    ],
+    answer:
+      "There is a perception that tighter disclosure norms and greater ADR liquidity will strengthen investor confidence",
+    chapter: 13,
+    marks: 1,
+  },
+  {
+    question: "Which was the only company to be still listed on AIM?",
+    options: [
+      "Noida Toll Bridge",
+      "Tata Steel",
+      "Essar Energy",
+      "Vedanta Resources",
+    ],
+    answer: "Noida Toll Bridge",
+    chapter: 13,
+    marks: 1,
+  },
+  {
+    question: "Why did the Government launch the 25% Rule in 2010?",
+    options: [
+      "They wanted greater participation by Indian investors in all companies",
+      "They wanted greater takeovers and arrangements as in international markets",
+      "They wanted companies to raise more capital from the markets",
+      "They wanted company share prices to reflect the true intrisinic value by greater public participation",
+    ],
+    answer:
+      "They wanted greater participation by Indian investors in all companies",
+    chapter: 13,
+    marks: 1,
+  },
+  {
+    question: "What is meant by Reward Crowd Funding?",
+    options: [
+      "Solicitation of funds for a social, artistic, philanthropic or other purpose and not in exchange of anything of tangible value",
+      "Solicitation of funds wherein investors receive some existing or future tangible reward",
+      "Solicitation of funds via an online platform that matches lenders with borrowers to provide unsecured loans at a decided interest rate",
+      "None of the above",
+    ],
+    answer:
+      "Solicitation of funds wherein investors receive some existing or future tangible reward",
+    chapter: 14,
+    marks: 1,
+  },
+  {
+    question: "What happens in Peer-to-Peer Lending?",
+    options: [
+      "It is solicitation of funds for social, artistic, philanthropic or other purpose, and not in exchange for anything of tangible value",
+      "Investors receive some existing or future tangible reward",
+      "Lenders are matched with borrowers to provide unsecured loans",
+      "Lenders take equity in borrower – normal equity or preferred or combination of both",
+    ],
+    answer: "Lenders are matched with borrowers to provide unsecured loans",
+    chapter: 14,
+    marks: 1,
+  },
+  {
+    question: "What is Crowd Funding?",
+    options: [
+      "It is solicitation of funds for social, artistic, philanthropic or other purpose, and not in exchange for anything of tangible value",
+      "It is loan received by Investors with fixed repayment of interest and princip",
+      "It is issuance of shares of a company against money received from the investors",
+      "It is solicitation of funds (small amounts) from multiple investors through a web-based platform or social networking site for a specific project, business venture or social cause",
+    ],
+    answer:
+      "It is solicitation of funds (small amounts) from multiple investors through a web-based platform or social networking site for a specific project, business venture or social cause",
+    chapter: 14,
+    marks: 1,
+  },
+  {
+    question: "Which amongst the following is not a Crowd Funding site?",
+    options: ["orkut", "rockethub", "someoland", "invested.in"],
+    answer: "orkut",
+    chapter: 14,
+    marks: 1,
+  },
+  {
+    question:
+      "Bimal Dalal has started a new firm www.charteredaccountantsonline.com to help clients with their Returns Filings. To manage inquiries from new customers and for giving proper services to existing clients, they have set-up a new call centre at the City Centre. They know that the modern Project carries number of risks. Which one from the following is not a common project risk?",
+    options: [
+      "Customer review and feedback cycle too slow.",
+      "Abrupt and frequent changes in the project team members",
+      "Time and cost estimates too optimistic.",
+      "Lack of resource commitment.",
+    ],
+    answer: "Abrupt and frequent changes in the project team members",
+    chapter: 15,
+    marks: 1,
+  },
+  {
+    question:
+      "Bhoumik, a freelancer is given an independent assignment by GE Power Engines to carry out a Project Risk Management study for their new Airplane Engines Facility in California. Which one from the following is not one of the process groups in Project Risk Management?",
+    options: [
+      "Monitoring and Controlling risks",
+      "Planning risk responses",
+      "Interviewing various stakeholders",
+      "Risk Identification",
+    ],
+    answer: "Interviewing various stakeholders",
+    chapter: 15,
+    marks: 1,
+  },
+  {
+    question:
+      "Suman Basu is setting up a new Training facility in Mumbai to train students on Mixed Martial Art techniques.  While going alongwith the Appraisal, she has asked her deputy to prepare a list of the common reasons why some project fail? He prepares a list and shows to her. Which of the following is/are some common reason/s for failure of a project?",
+    options: [
+      "Undefined objectives and goals",
+      "Poorly managed",
+      "Stakeholder conflict",
+      "All of the above",
+    ],
+    answer: "All of the above",
+    chapter: 15,
+    marks: 1,
+  },
+  {
+    question:
+      "Ekta Jhaveri wants to start her new academy for training singing aspirants. Her advisor, Jyot Jhaveri as part of being cautious is preparing a list on some common reasons for failure of projects?",
+    options: [
+      "Undefined objectives and goals",
+      "Poorly managed",
+      "Lack of management commitment",
+      "All of the above",
+    ],
+    answer: "All of the above",
+    chapter: 15,
+    marks: 1,
+  },
+  {
+    question:
+      "Ritu Nemani, an MBA wants to set-up a modern web-portal where traders and retail investors can bid, buy and sell all kinds of liquid assets. Her friend and advisor, anticipating trouble in the new venture are preparing a list of various problems which could shake up their plans. Which amongst these is not a common reasons for failure of projects?",
+    options: [
+      "Perfectly defined objectives and goals",
+      "Team Weaknesses",
+      "Unrealistic timeframes and tasks",
+      "Scope creep",
+    ],
+    answer: "Perfectly defined objectives and goals",
+    chapter: 15,
+    marks: 1,
+  },
+  {
+    question:
+      "State whether True or False.  Conflict between stakeholders is not a reason for failure of a Project.",
+    options: ["True", "False"],
+    answer: "False",
+    chapter: 15,
+    marks: 1,
+  },
+  {
+    question: "Which among the following is/are benefit/s of a WBS?",
+    options: [
+      "Makes sure no important deliverables are forgotten.",
+      "Provides a proven and repeatable approach to planning projects.",
+      "Helps project managers with resource allocation.",
+      "All of the above",
+    ],
+    answer: "All of the above",
+    chapter: 15,
+    marks: 1,
+  },
+  {
+    question:
+      "State whether True or False. The best way to project success is that rather than planning on the project, one should simply get on with the work.",
+    options: ["True", "False"],
+    answer: "False",
+    chapter: 15,
+    marks: 1,
+  },
+  {
+    question:
+      "Which among the following is not a component of the Quality Management Plan?",
+    options: [
+      "Quality objectives",
+      "Key project deliverables and processes to be reviewed for satisfactory quality level",
+      "Quality standards",
+      "Quantity Tools",
+    ],
+    answer: "Quantity Tools",
+    chapter: 16,
+    marks: 1,
+  },
+  {
+    question: "How does a Quality Management Plan help a Project Manager?",
+    options: [
+      "He can improve the various forecasts",
+      "He can ascertain whether deliverables are of an acceptable quality level and also if the project processes are effective and properly applied.",
+      "He can show this around to the various Directors and can help him if something goes wrong",
+      "All of the above\t\tAll of the above\t\tAll of the above\t\t\t\t\t\t\t\t\t\t [0]All of the above\t\t\t\t\tall the above\t\t\t\t\t\t\t\t\t\t\t [0]\t\t\t\t\t\t\t\t [0]",
+    ],
+    answer:
+      "He can ascertain whether deliverables are of an acceptable quality level and also if the project processes are effective and properly applied.",
+    chapter: 16,
+    marks: 1,
+  },
+  {
+    question:
+      "Which of the following is not one of the outcomes of a Project Audit?",
+    options: [
+      "It can help Identify termination opportunities",
+      "It can help Improve forecasts",
+      "It can help Improve operations",
+      "It can help improve in-depth research",
+    ],
+    answer: "It can help improve in-depth research",
+    chapter: 16,
+    marks: 1,
+  },
+  {
+    question:
+      "Which of the following is not a part of successful Project Audit?",
+    options: [
+      "Quality Standards",
+      "Report Development",
+      "In-Depth Research",
+      "Success Criteria\t\t[0]",
+    ],
+    answer: "Quality Standards",
+    chapter: 16,
+    marks: 1,
+  },
+  {
+    question:
+      "In a Project Audit Interview, which types of questions are most effective?",
+    options: [
+      "Yes-No type",
+      "Open-ended questions with detailed description",
+      "Multiple Choice Questions",
+      "Questions on a graphical user interface",
+    ],
+    answer: "Open-ended questions with detailed description",
+    chapter: 16,
+    marks: 1,
+  },
+  {
+    question:
+      "State whether True or False. A good Project Audit Report will simply tell us how we can improve current project. It cannot improve future projects within the organisation.",
+    options: ["True", "False"],
+    answer: "False",
+    chapter: 16,
+    marks: 1,
+  },
+  {
+    question:
+      "State whether True or False. A good Project Audit Report will continue the improvement of relationships between the organisation and its vendors.",
+    options: ["True", "False"],
+    answer: "True",
+    chapter: 16,
     marks: 1,
   },
 ];
