@@ -55,7 +55,7 @@ function loadQuestionAnswers(callback) {
     // console.log("questionsInSelectedChapters", questionsInSelectedChapters);
     questionAnswers = getRandom(questionsInSelectedChapters, numberOfQuestions);
     totalQuestions = questionAnswers.length;
-    totalTime = totalQuestions * 60 * 1000;
+    totalTime = totalQuestions * 40 * 1000;
     timeRemaining = totalTime;
 
     // console.log(
